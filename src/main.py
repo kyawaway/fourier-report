@@ -28,7 +28,7 @@ if __name__ == '__main__':
     plt.imshow(resorted_img,cmap="Greys")
     plt.title("restored")
     plt.xticks([])
-    plt.savefig("test.png")
+    plt.savefig("img/test.png")
 '''
     fig, axi = plt.subplots(N,N)
     for i in range(N):
@@ -36,7 +36,7 @@ if __name__ == '__main__':
             axi[i,j].imshow(hoge[i,j],cmap="Greys")
             axi[i,j].set_xticklabels([])
             axi[i,j].set_yticklabels([])
-    plt.savefig("base.png")
+    plt.savefig("img/base.png")
 '''
 
 
