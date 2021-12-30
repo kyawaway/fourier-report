@@ -1,6 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-
 
 def base(N):
     phi_1 = np.array([phi(i,N) for i in range(N)])
